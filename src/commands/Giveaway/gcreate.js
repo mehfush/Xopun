@@ -116,7 +116,7 @@ export default {
         const row = createGiveawayButtons(false);
 
         const giveawayMessage = await targetChannel.send({
-            content: "🎉 **NEW GIVEAWAY** 🎉",
+            content: "<@&1553096357064220792> 🎉 **NEW GIVEAWAY** 🎉",
             embeds: [embed],
             components: [row],
         });
